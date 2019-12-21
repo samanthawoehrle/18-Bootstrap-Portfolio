@@ -1,0 +1,76 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+
+  }
+
+  h2 {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    padding: 40px;
+
+  }
+
+  .jumbotron {
+      display: flexbox;
+      align-content: center;
+  }
+
+  .card {
+    align-content: center;
+    display: flex;
+   
+  }
+  .container {
+      display: flexbox;
+  }
+
+  .mySkills {
+      display: inline;
+      text-align: left;
+  }
+
+.text-content {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    
+
+  }
+  .card-coluumns {
+      display: inline;
+  }
+
+  
+.picture {
+    float: right;
+    padding-right: 85px;
+    margin-top: -350px;
+    margin-bottom: 40px;
+    position: relative;
+    
+  }
+
+  .circle {
+    float: right;
+    padding-right: 85px;
+    margin-top: -350px;
+    margin-bottom: 40px;
+    position: absolute;
+  }
+
+  .social-links {
+    margin-left: 60px;
+  
+  }
