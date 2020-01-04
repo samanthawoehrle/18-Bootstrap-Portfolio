@@ -1,6 +1,8 @@
 body {
-    background-color: whitesmoke;
+    background-color:whitesmoke;
 }
+
+
 h1 {
     color: black;
     text-align: left;
@@ -8,32 +10,53 @@ h1 {
 
   }
 
-  h2 {
+ 
+
+
+  .quote {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  /* h2 {
     color: black;
     text-align: left;
     font-size: 30px;
     padding: 40px;
 
-  }
+  } */
 
   .jumbotron {
       display: flexbox;
       align-content: center;
+      text-align: center;
+      color: black;
+      background-color: white;
+      height: 325px;
+      padding: 50px;
+      padding-bottom: 50px;
+      padding-top: 50px;
   }
+
+ 
 
   .card {
     align-content: center;
     display: flex;
    
   }
+
+  .display-4 {
+    text-align: center;
+    font-size: 35px;
+  }
   .container {
       display: flexbox;
+      text-align: center;
   }
 
-  .mySkills {
-      display: inline;
-      text-align: left;
-  }
 
 .text-content {
     font-family: 'Times New Roman', Times, serif;
@@ -53,24 +76,3 @@ h1 {
   }
 
   
-.picture {
-    float: right;
-    padding-right: 85px;
-    margin-top: -350px;
-    margin-bottom: 40px;
-    position: relative;
-    
-  }
-
-  .circle {
-    float: right;
-    padding-right: 85px;
-    margin-top: -350px;
-    margin-bottom: 40px;
-    position: absolute;
-  }
-
-  .social-links {
-    margin-left: 60px;
-  
-  }
